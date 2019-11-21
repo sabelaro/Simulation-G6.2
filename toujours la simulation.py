@@ -2,8 +2,10 @@
 Programme de simulation du groupe 6.2 danns le cadre du projet "Into the abyss", projet BA1 Polytechnique ULB
 Le programme reçoit en entrée :
 m : La masse initiale du bathyscaphe
-V : le volume initial du bathyscaphe
-k : le coefficient lié aux frottements et à la force de trainée
+V : Le volume initial du bathyscaphe
+k : Le coefficient lié aux frottements et à la force de trainée
+Vf: Le volume finale du bathyscaphe
+mf: La masse finale du bathyscaphe
 """
 import matplotlib.pyplot as plt
 rhoEau = 1000
