@@ -6,6 +6,8 @@ V : Le volume initial du bathyscaphe
 k : Le coefficient lié aux frottements et à la force de trainée
 Vf: Le volume finale du bathyscaphe
 mf: La masse finale du bathyscaphe
+fraction_sec : plus cette valeur est grande, plus le calcul est précis :
+1/fraction_sec : cette valeur est le temps infinitésimale "dt"
 """
 import matplotlib.pyplot as plt
 rhoEau = 1000
